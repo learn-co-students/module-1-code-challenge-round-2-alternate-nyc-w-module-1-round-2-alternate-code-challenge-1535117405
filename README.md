@@ -51,22 +51,22 @@ Implement all of the methods described below
 
 ### MovieScreen
 
-+ MovieScreen#cars
-  + Returns an array of all cars currently at _this_ movie screen
+<!-- + MovieScreen#cars
+  + Returns an array of all cars currently at _this_ movie screen -->
 + MovieScreen#at_capacity?
   + Returns a boolean.  The return will be true if the number of cars at _this_ movie screen is at capacity
 + MovieScreen#add_car
   + Adds an instance of a car to _this_ movie screen if the movie screen is not at capacity, creates a new car instance and returns the string "Enjoy!".  If the movie screen is at capacity, return a string that says 'Movie is sold out'
-+ MovieScreen.all_screens
-  + Returns all movie screens
-+ MovieScreen#how_many_viewers?
-  + returns a head count of how many people are watching the movie
+<!-- + MovieScreen.all_screens
+  + Returns all movie screens -->
+<!-- + MovieScreen#how_many_viewers?
+  + returns a head count of how many people are watching the movie -->
 
 ### Car
 
-+ Car.all
-  + Returns all cars
-+ Car#movie_screen
-  + Returns the movie screen _this_ car is at
+<!-- + Car.all -->
+  <!-- + Returns all cars -->
+<!-- + Car#movie_screen
+  + Returns the movie screen _this_ car is at -->
 + Car#passenger_count
   + Returns the number of people within _this_ car
